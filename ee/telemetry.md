@@ -71,7 +71,7 @@ For the Docker daemon to pick up the changes in the configuration file, the
 Docker daemon will need to be restarted.
 
 ```bash
-$ sudo systemctl reboot docker
+$ sudo systemctl restart docker
 ```
 
 To reenable the telemetry module, swap the value to `"telemetry": true` or
